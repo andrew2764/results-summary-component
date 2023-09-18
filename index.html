@@ -8,54 +8,69 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Results summary component</title>
 
 </head>
 
 <body>
   <section class="overall">
-    <p>Your Result</p>
-    <h1>76</h1>
-    <p>of 100</p>
+    <p class="overall__title">Your Result</p>
+    <h1 class="overall__score">76</h1>
+    <p class="overall__full-score">of 100</p>
 
-    <h3>Great</h3>
-    <p>
+    <h3 class="overall__feedback">Great</h3>
+    <p class="overall__description">
       You scored higher than 65% of the people who have taken these tests.
     </p>
   </section>
 
   <section class="summary">
-    <h3>Summary</h3>
-    <div>
+    <h3 class="summary__title">Summary</h3>
+    <div class="summary__reaction">
       <span>
         <img src="./assets/images/icon-reaction.svg" alt="reaction icon">
         Reaction
       </span>
-      <span>80 / 100</span>
+      <span>
+        <span class="summary__score">80</span>
+        <span class="summary__full-score"> / 100</span>
+      </span>
     </div>
 
-    <div>
+    <div class="summary__memory">
       <span>
         <img src="./assets/images/icon-memory.svg" alt="memory icon">
         Memory
       </span>
-      <span>92 / 100</span>
+      <span>
+        <span class="summary__score">92</span>
+        <span class="summary__full-score"> / 100</span>
+      </span>
     </div>
 
-    <div>
+    <div class="summary__verbal">
       <span>
         <img src="./assets/images/icon-verbal.svg" alt="verbal icon">
         Verbal
       </span>
-      <span>61 / 100</span>
+      <span>
+        <span class="summary__score">61</span>
+        <span class="summary__full-score"> / 100</span>
+      </span>
     </div>
 
-    <div>
+    <div class="summary__visual">
       <span>
         <img src="./assets/images/icon-visual.svg" alt="visual icon">
         Visual
       </span>
-      <span>72 / 100</span>
+      <span>
+        <span class="summary__score">72</span>
+        <span class="summary__full-score"> / 100</span>
+      </span>
     </div>
 
     <a href="#">Continue</a>
