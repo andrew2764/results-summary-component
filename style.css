@@ -15,30 +15,57 @@ h3 {
   margin: 0;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .overall {
   text-align: center;
   background: linear-gradient(#6943ff, #2f2ce9);
   color: #cac9ff;
   font-weight: 700;
+  padding: 1.75em 0;
+  border-radius: 0 0 32px 32px;
 }
 
 .overall__title {
   font-size: 1.125rem;
+  margin-bottom: 1em;
 }
 
 .overall__score {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+
+.overall__score__header {
   font-size: 3.125rem;
   font-weight: 800;
   color: white;
 }
 
+.overall__score__subheader {
+  opacity: 0.5;
+}
+
 .overall__feedback {
   color: white;
   font-size: 1.5rem;
+  margin-top: 1em;
 }
 
 .overall__description {
   font-weight: 500;
+  width: 80%;
+  margin: 0.5em auto;
 }
 
 .summary__title {
