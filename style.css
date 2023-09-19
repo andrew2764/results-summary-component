@@ -68,9 +68,26 @@ h3 {
   margin: 0.5em auto;
 }
 
+.summary {
+  padding: 1.5em 0;
+}
+
 .summary__title {
   font-size: 1.125rem;
   color: #303b59;
+  margin-bottom: 0.5em;
+}
+
+.summary__category {
+  margin-top: 1em;
+  padding: 1em 1em;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.summary__category img {
+  margin-right: 0.75em;
 }
 
 .summary__reaction {
@@ -91,6 +108,10 @@ h3 {
 .summary__visual {
   color: hsl(234, 85%, 45%);
   background-color: hsl(234, 85%, 95%);
+}
+
+.summary__score--container {
+  margin-left: auto;
 }
 
 .summary__score {
