@@ -15,11 +15,6 @@ h3 {
   margin: 0;
 }
 
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .overall {
   text-align: center;
   background: linear-gradient(#6943ff, #2f2ce9);
@@ -70,6 +65,11 @@ h3 {
 
 .summary {
   padding: 1.5em 0;
+}
+
+.summary--container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .summary__title {
@@ -151,4 +151,32 @@ h3 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 650px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf2ff;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .container {
+    background-color: white;
+    border-radius: 32px;
+  }
+
+  .overall {
+    width: 100%;
+    border-radius: 32px;
+  }
+
+  .summary {
+    width: 100%;
+  }
 }
