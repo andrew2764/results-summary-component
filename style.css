@@ -169,6 +169,8 @@ h3 {
   .container {
     background-color: white;
     border-radius: 32px;
+    width: 80%;
+    max-width: 736px;
   }
 
   .overall {
@@ -176,7 +178,51 @@ h3 {
     border-radius: 32px;
   }
 
+  .overall__title {
+    font-size: 1.5rem;
+  }
+
+  .overall__score {
+    height: 200px;
+    width: 200px;
+  }
+
+  .overall__score__header {
+    font-size: 4.5rem;
+  }
+
+  .overall__score__subheader {
+    font-size: 1.125rem;
+  }
+
+  .overall__feedback {
+    font-size: 2rem;
+  }
+
+  .overall__description {
+    width: 70%;
+    font-size: 1.125rem;
+  }
+
   .summary {
     width: 100%;
+  }
+
+  .summary--container {
+    width: 85%;
+  }
+
+  .summary__title {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+  }
+
+  .summary__category {
+    font-size: 1.125rem;
+  }
+
+  .summary__button {
+    margin-top: 2em;
+    margin-bottom: 1em;
   }
 }
